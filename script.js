@@ -1,6 +1,6 @@
 //your JS code here. If required.
 function prompt(x,y){
-	let result = x*2+y
-	return result
+	return x*2+y
 }
-alert("The final result is: "+prompt(5,6))
+const result = prompt(5,6)
+alert("The final result is: " + result)
