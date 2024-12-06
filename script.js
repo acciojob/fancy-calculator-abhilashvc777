@@ -1,6 +1,8 @@
 //your JS code here. If required.
-function prompt(x,y){
-	return x*2+y
+function calculator(){
+	return x*2+y;
 }
-const result = prompt(5,6)
+const firstInput = Number(prompt("Enter the first number"));
+const secondInput = Number(prompt("Enter the second number")) 
+const result = calculator(firstInput,secondInput) 
 alert("The final result is: " + result)
