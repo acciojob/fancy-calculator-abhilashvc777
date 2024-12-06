@@ -1,5 +1,5 @@
 //your JS code here. If required.
-function calculator(){
+function calculator(x,y){
 	return x*2+y;
 }
 const firstInput = Number(prompt("Enter the first number"));
